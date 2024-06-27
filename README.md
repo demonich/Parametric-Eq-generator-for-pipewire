@@ -24,6 +24,6 @@ You must click in its properties "use only this device to play sound" (in KDE Pl
 
 I don't know hot to do this in Gnome, sorry...
 
-Now, you can use your normal audio slider for audio, and eq slider for preamp 
+Now, you can use your normal audio slider for volume, and eq slider for preamp 
 
 (in short, don't make it 100%, or you will feel speakers overload, which is obviously bad for you and your equipment)
