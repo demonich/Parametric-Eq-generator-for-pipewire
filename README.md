@@ -1,10 +1,21 @@
 # Parametric-Eq-generator-for-pipewire
+
 A python script that creates a configuration file for pipewire's sink eq using configuration files for easyeffects from the autoeq.app
 
 Moreover, the script copies the configuration file where needed and applies it for you.
 
 Of course, to get benefits your system (linux-based distribution) should using Pipewire multimedia framework, instead of pulseaudio.
-## how to enable equalizer
+
+## How to use it
+
+Create a folder, put the script there and config txt file from autoeq.app (in equalizer section choose 'easyeffects').
+
+Properly rename txt file (how? check script :D. actually always check scripts from the internet, who knows whats in there, maybe some funny if/else code :D )
+
+Finally, run script (inside file manager or in terminal, you choose)
+
+## How to enable equalizer
+
 After running the script, you will discover in audio properties a new audio source: "Pipewire Equalizer". But don't switch to it!
 
 You must click in its properties "use only this device to play sound" (in KDE Plasma)
