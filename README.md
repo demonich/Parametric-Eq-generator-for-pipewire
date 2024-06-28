@@ -10,7 +10,7 @@ Of course, to get benefits your system (linux-based distribution) should using P
 
 Create a folder, put the script there and config txt file from autoeq.app (in equalizer section choose 'easyeffects').
 
-Run script (inside file manager or in terminal, you choose). File picker will appear, select there your txt file, press OK.
+Run script (inside file manager (make it execuable in properties first) or in terminal, you choose). File picker will appear, select there your txt file, press OK.
 
 Done.
 
