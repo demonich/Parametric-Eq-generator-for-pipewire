@@ -6,6 +6,10 @@ Moreover, the script copies the configuration file where needed and applies it f
 
 Of course, to get benefits your system (linux-based distribution) should using Pipewire multimedia framework, instead of pulseaudio.
 
+## Demo
+
+https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436/23d09cb3-099c-464f-b5fb-27cb8492d89b
+
 ## How to use it
 
 Create a folder, put the script there and config txt file from autoeq.app (in equalizer section choose 'easyeffects').
