@@ -1,10 +1,10 @@
 # Parametric Eq config generator for pipewire
 
-A python script that creates a configuration file for pipewire's sink eq using configuration files for easyeffects from the autoeq.app
+A python script that creates a configuration file for pipewire's sink eq using configuration files intended for easyeffects from the [autoeq.app](https://autoeq.app/)
 
-Moreover, the script copies the configuration file where needed and applies it for you.
+The script generates, copies and applies the configuration file for you. 
 
-Of course, to get benefits your system (linux-based distribution) should using Pipewire multimedia framework, instead of pulseaudio.
+Of course, to get benefits, your system (linux-based distribution) should using Pipewire multimedia framework, instead of pulseaudio.
 
 ## Demo
 
@@ -12,7 +12,7 @@ https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436
 
 ## How to use it
 
-Create a folder, put the script there and config txt file from autoeq.app (in equalizer section choose 'easyeffects').
+Create a folder, put the script there and config txt file from [autoeq.app](https://autoeq.app/) (in equalizer section choose 'easyeffects').
 
 Run script (inside file manager (make it execuable in properties first) or in terminal, you choose). File picker will appear, select there your txt file, press OK.
 
