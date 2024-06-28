@@ -101,6 +101,6 @@ output_file.write('\n\
 output_file.close()
 input_file.close()
 
-os.system("mkdir -p ~/.config/pipewire | mkdir -p ~/.config/pipewire/pipewire.conf.d")
-os.system("yes | cp -rf sink-eq6.conf ~/.config/pipewire/pipewire.conf.d")
+os.system("mkdir -p ~/.config/pipewire/pipewire.conf.d")
+os.system("cp -u sink-eq6.conf ~/.config/pipewire/pipewire.conf.d/")
 os.system("systemctl --user restart pipewire.service")
