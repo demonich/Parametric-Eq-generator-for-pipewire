@@ -6,7 +6,7 @@ import tkinter.filedialog
 # txt file picker
 txt_file = tkinter.filedialog.askopenfilename()
 # askopenfilename returns tuple. If exits, it returns empty tuple
-if (txt_file is None or txt_file == ()):
+if (txt_file is None or txt_file == () or txt_file == ''):
     sys.exit()
 
 output_file = open("sink-eq6.conf", "w+")
