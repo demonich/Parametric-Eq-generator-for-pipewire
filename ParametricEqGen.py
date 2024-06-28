@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import os
-# Change name of your parametric equalizer text file to 'ParametricEq.txt', because I am lazy
+import tkinter.filedialog
+
+# txt file picker
+txt_file = tkinter.filedialog.askopenfilename()
 
 output_file = open("sink-eq6.conf", "w+")
 
@@ -29,7 +32,7 @@ context.modules = [ \n\
             filter.graph = { \n\
                 nodes = [ \n')
 
-with open("ParametricEq.txt", "r") as input_file:
+with open(txt_file, "r") as input_file:
     # read first string, useless for now
     string = input_file.readline().strip()
 
