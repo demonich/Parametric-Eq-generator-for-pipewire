@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 import os
+import sys
 import tkinter.filedialog
 
 # txt file picker
 txt_file = tkinter.filedialog.askopenfilename()
+# askopenfilename returns tuple. If exits, it returns empty tuple
+if (txt_file is None or txt_file == ()):
+    sys.exit()
 
 output_file = open("sink-eq6.conf", "w+")
 
