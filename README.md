@@ -10,9 +10,9 @@ Of course, to get benefits your system (linux-based distribution) should using P
 
 Create a folder, put the script there and config txt file from autoeq.app (in equalizer section choose 'easyeffects').
 
-Properly rename txt file (how? check script :D. actually always check scripts from the internet, who knows whats in there, maybe some funny if/else code :D )
+Run script (inside file manager or in terminal, you choose). File picker will appear, select there your txt file, press OK.
 
-Finally, run script (inside file manager or in terminal, you choose)
+Done.
 
 ## How to enable equalizer
 
