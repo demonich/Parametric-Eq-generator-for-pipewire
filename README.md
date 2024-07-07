@@ -20,14 +20,8 @@ Done.
 
 ## How to enable equalizer
 
-After running the script, you will discover in audio properties a new audio source: "Pipewire Equalizer". But don't switch to it!
+As far as I know, you should enable it for every app that plays audio manually. This can be done in the sound settings (in the application volume section).
 
-You must click in its properties "use only this device to play sound" (in KDE Plasma)
+![Снимок экрана от 2024-07-07 18-28-26](https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436/c805cfd6-1a91-421c-a30e-cf496d027490) 
 
-![audio-properties-eq](https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436/1c4c548e-d22c-4dd2-989d-41b15cbf79bf)
-
-I don't know hot to do this in Gnome, sorry...
-
-Now, you can use your normal audio slider for volume, and eq slider for preamp 
-
-(in short, don't make it 100%, or you will feel speakers overload, which is obviously bad for you and your equipment)
+![Снимок экрана от 2024-07-07 18-32-13](https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436/27b80c62-8e84-45e2-8847-182a0da59044)
