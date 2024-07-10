@@ -20,7 +20,7 @@ Done.
 
 ## How to enable equalizer
 
-As far as I know, you should enable it for every app that plays audio manually. This can be done in the sound settings (in the application volume section).
+As far as I know, you should manually enable it for every app that plays audio. This can be done in the sound settings (in the application volume section).
 
 ![Снимок экрана от 2024-07-07 18-28-26](https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436/c805cfd6-1a91-421c-a30e-cf496d027490) 
 
