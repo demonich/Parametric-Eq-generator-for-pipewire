@@ -25,3 +25,24 @@ As far as I know, you should manually enable it for every app that plays audio. 
 ![Снимок экрана от 2024-07-07 18-28-26](https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436/c805cfd6-1a91-421c-a30e-cf496d027490) 
 
 ![Снимок экрана от 2024-07-07 18-32-13](https://github.com/demonich/Parametric-Eq-generator-for-pipewire/assets/74813436/27b80c62-8e84-45e2-8847-182a0da59044)
+
+## Troubleshooting
+
+### "tkinter" import failed
+
+Install ```tk```
+
+```
+#ubuntu
+sudo apt install python3-tk
+```
+
+```
+#fedora
+sudo dnf install python3-tkinter
+```
+
+```
+#arch
+sudo pacman -S tk
+```
